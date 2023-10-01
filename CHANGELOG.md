@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.2.0...v1.2.1) (2023-10-01)
+
+
+### Bug Fixes
+
+* :rocket: fixed ghcr auth ([c69d32d](https://github.com/tomerh2001/semantic-release-repo-template/commit/c69d32d606be944b32711c83c6b4e8c6ddb4a09e))
+
 # [1.2.0](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.1.0...v1.2.0) (2023-10-01)
 
 
