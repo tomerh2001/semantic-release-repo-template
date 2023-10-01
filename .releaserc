@@ -9,6 +9,7 @@
             "@semantic-release/git",
             "@semantic-release/github",
             ["@codedependant/semantic-release-docker", {
+                "dockerTags": ['latest', '{{version}}', '{{major}}', '{{major}}.{{minor}}'],
                 "dockerLogin": false,
                 "dockerRegistry": "ghcr.io",
                 "dockerProject": "tomerh2001",
