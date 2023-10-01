@@ -33,3 +33,4 @@ jobs:
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_REPO: https://github.com/${{ github.repository }}
