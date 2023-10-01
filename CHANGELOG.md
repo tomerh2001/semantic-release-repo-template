@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.6.0...v1.6.1) (2023-10-01)
+
+
+### Bug Fixes
+
+* Update dynamic_readme.yml ([b46ad70](https://github.com/tomerh2001/semantic-release-repo-template/commit/b46ad70a6625a3ef9255a7d8476ba604ff30339e))
+
 # [1.6.0](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.5.2...v1.6.0) (2023-10-01)
 
 
