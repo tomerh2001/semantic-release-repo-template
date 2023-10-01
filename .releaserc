@@ -9,7 +9,7 @@
             "@semantic-release/git",
             "@semantic-release/github",
             ["@codedependant/semantic-release-docker", {
-                "dockerTags": ['latest', '{{version}}', '{{major}}', '{{major}}.{{minor}}'],
+                "dockerTags": ["latest", "{{version}}", "{{major}}", "{{major}}.{{minor}}"],
                 "dockerLogin": false,
                 "dockerRegistry": "ghcr.io",
                 "dockerProject": "tomerh2001",
@@ -18,7 +18,7 @@
                 }
             }],
             ["@codedependant/semantic-release-docker", {
-                "dockerTags": ['latest', '{{version}}', '{{major}}', '{{major}}.{{minor}}'],
+                "dockerTags": ["latest", "{{version}}", "{{major}}", "{{major}}.{{minor}}"],
                 "dockerProject": "tomerh2001"
             }]
         ]
