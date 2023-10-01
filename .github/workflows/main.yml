@@ -34,5 +34,3 @@ jobs:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         GH_REPO: ${{ github.server_url }}/${{ github.repository }}
-        DOCKER_REGISTRY_USER: ${{ secrets.DOCKER_REGISTRY_USER }}
-        DOCKER_REGISTRY_PASSWORD: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
