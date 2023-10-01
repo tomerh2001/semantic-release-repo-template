@@ -3,4 +3,4 @@
 [![XO code style](https://shields.io/badge/code_style-5ed9c7?logo=xo&labelColor=gray)](https://github.com/xojs/xo)
 [![Snyk Security](../../actions/workflows/snyk-security.yml/badge.svg)](tomerh2001/semantic-release-repo-template/actions/workflows/snyk-security.yml)
 [![CodeQL](../../actions/workflows/codeql.yml/badge.svg)](tomerh2001/semantic-release-repo-template/actions/workflows/codeql.yml)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/tomerh2001/Semantic Release Repo Template/badge)](https://securityscorecards.dev/viewer/?uri=tomerh2001/Semantic Release Repo Template)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/tomerh2001/semantic-release-repo-template/badge)](https://securityscorecards.dev/viewer/?uri=tomerh2001/semantic-release-repo-template)
