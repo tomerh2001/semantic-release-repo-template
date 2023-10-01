@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.4.3...v1.5.0) (2023-10-01)
+
+
+### Features
+
+* changed docker tags ([93f8321](https://github.com/tomerh2001/semantic-release-repo-template/commit/93f832152e108d61c86d22d9d4f50dddcfa97a7d))
+
 ## [1.4.3](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.4.2...v1.4.3) (2023-10-01)
 
 
