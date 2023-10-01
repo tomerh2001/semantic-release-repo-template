@@ -1,3 +1,15 @@
+## [1.4.1](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.4.0...v1.4.1) (2023-10-01)
+
+
+### Bug Fixes
+
+* :rewind: reverted last changes ([ef0977f](https://github.com/tomerh2001/semantic-release-repo-template/commit/ef0977f57f175179325bf8a98204a3975c887eea))
+
+
+### Reverts
+
+* :rewind: reverted last changes ([522f6fd](https://github.com/tomerh2001/semantic-release-repo-template/commit/522f6fd2a0ae8934ce5b9f2d86bb6d76e24da970))
+
 # [1.4.0](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.3.3...v1.4.0) (2023-10-01)
 
 
