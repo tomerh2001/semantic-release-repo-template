@@ -22,12 +22,14 @@ jobs:
       uses: oven-sh/setup-bun@v1
     
     - name: Install Dependencies
-      run: bun i --dev 
+      run: bun i --dev
+
+    # Authenticate with ghcr.io
+    - name: Authenticate with ghcr.io
+      run: echo "${{ secrets.GH_TOKEN }}" | bunx ghcr login --username ${{ github.actor }} --password-stdin
 
     - name: Semantic Release
       run: bunx semantic-release
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        DOCKER_REGISTRY_USER: ${{ secrets.DOCKER_REGISTRY_USER }}
-        DOCKER_REGISTRY_PASSWORD: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
