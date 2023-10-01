@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.5.0...v1.5.1) (2023-10-01)
+
+
+### Bug Fixes
+
+* Update .releaserc ([e5045e2](https://github.com/tomerh2001/semantic-release-repo-template/commit/e5045e2b3c7e74c19024b96bfecdab059752b212))
+
 # [1.5.0](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.4.3...v1.5.0) (2023-10-01)
 
 
