@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.3.1...v1.3.2) (2023-10-01)
+
+
+### Bug Fixes
+
+* :bug: fixed arg in dockerfile ([c66ffa3](https://github.com/tomerh2001/semantic-release-repo-template/commit/c66ffa374aae9def98c862efe45ec5d71991d1be))
+
 ## [1.3.1](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.3.0...v1.3.1) (2023-10-01)
 
 
