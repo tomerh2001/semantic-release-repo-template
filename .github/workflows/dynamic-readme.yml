@@ -26,6 +26,6 @@ jobs:
         uses: varunsridharan/action-dynamic-readme@main
         with:
           files: |
-            .templates/README.md
+            .templates/README.md=README.md
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
