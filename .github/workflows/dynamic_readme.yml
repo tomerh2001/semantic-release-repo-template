@@ -1,23 +1,28 @@
-name: Dynamic README Generation
+name: Dynamic Template
 
 on:
   push:
     branches:
-      - main  # adjust this if your primary branch has a different name
+      - main
+  workflow_dispatch:
 
 jobs:
-  generate-readme:
+  update_templates:
+    name: "Update Templates"
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
 
-    - name: Generate Dynamic README
-      uses: varunsridharan/action-dynamic-readme@main
-      with:
-        files: |
-          .templates/README.md=README.md
-        confirm_and_push: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: "💾  Github Repository Metadata"
+        uses: varunsridharan/action-repository-meta@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: "💫  Dynamic Template Render"
+        uses: varunsridharan/action-dynamic-readme@main
+        with:
+          files: |
+            .templates/README.md=README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
