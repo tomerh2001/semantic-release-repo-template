@@ -12,8 +12,7 @@
                 "dockerRegistry": "ghcr.io",
                 "dockerProject": "tomerh2001",
                 "dockerArgs": {
-                    "GH_REPO": "{{env.GH_REPO}}",
-                    "RELEASE_NOTES": "${{release_notes}}"
+                    "GH_REPO": "{{env.GH_REPO}}"
                 }
             }]
         ]
