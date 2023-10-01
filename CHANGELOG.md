@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.5.1...v1.5.2) (2023-10-01)
+
+
+### Bug Fixes
+
+* Create SECURITY.md ([56b7acc](https://github.com/tomerh2001/semantic-release-repo-template/commit/56b7acc502c459ae6c5e83a4a1a6ca80a48ab964))
+
 ## [1.5.1](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.5.0...v1.5.1) (2023-10-01)
 
 
