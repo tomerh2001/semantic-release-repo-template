@@ -4,3 +4,5 @@
 [![Snyk Security](../../actions/workflows/snyk-security.yml/badge.svg)](https://github.com/tomerh2001/semantic-release-repo-template/actions/workflows/snyk-security.yml)
 [![CodeQL](../../actions/workflows/codeql.yml/badge.svg)](https://github.com/tomerh2001/semantic-release-repo-template/actions/workflows/codeql.yml)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/tomerh2001/semantic-release-repo-template/badge)](https://securityscorecards.dev/viewer/?uri=github.com/tomerh2001/semantic-release-repo-template)
+
+test
