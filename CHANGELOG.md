@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.3.3...v1.4.0) (2023-10-01)
+
+
+### Features
+
+* :bookmark: added release notes to docker metadata ([2238ee3](https://github.com/tomerh2001/semantic-release-repo-template/commit/2238ee32bd09a3976a4161a751c04d5dd6f9bef2))
+
 ## [1.3.3](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.3.2...v1.3.3) (2023-10-01)
 
 
