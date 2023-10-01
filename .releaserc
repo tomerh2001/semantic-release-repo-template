@@ -12,7 +12,7 @@
                 "dockerRegistry": "ghcr.io",
                 "dockerProject": "tomerh2001",
                 "dockerArgs": {
-                    "SOURCE_LABEL": "${{env.GH_REPO}}"
+                    "GH_REPO": "${{env.GH_REPO}}"
                 }
             }]
         ]
