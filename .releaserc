@@ -18,6 +18,7 @@
                 }
             }],
             ["@codedependant/semantic-release-docker", {
+                "dockerTags": ['latest', '{{version}}', '{{major}}', '{{major}}.{{minor}}'],
                 "dockerProject": "tomerh2001"
             }]
         ]
