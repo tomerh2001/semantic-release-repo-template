@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.5.2...v1.6.0) (2023-10-01)
+
+
+### Features
+
+* :memo: added dynamic readme generation ([de94939](https://github.com/tomerh2001/semantic-release-repo-template/commit/de9493949eb3bdecf0e0c6aa915f2e678cae7030))
+
 ## [1.5.2](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.5.1...v1.5.2) (2023-10-01)
 
 
