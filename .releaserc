@@ -8,6 +8,9 @@
             "@semantic-release/changelog",
             "@semantic-release/git",
             "@semantic-release/github",
-            ["@codedependant/semantic-release-docker"]
+            ["@codedependant/semantic-release-docker", {
+                "dockerRegistry": "ghcr.io",
+                "dockerProject": "tomerh2001"
+            }]
         ]
 }
