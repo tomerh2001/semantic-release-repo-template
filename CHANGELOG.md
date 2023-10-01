@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.2.2...v1.3.0) (2023-10-01)
+
+
+### Features
+
+* :monocle_face: added meta data to docker ([6595fb6](https://github.com/tomerh2001/semantic-release-repo-template/commit/6595fb601caf87a90e99b505ebbb0a3805938a68))
+
 ## [1.2.2](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.2.1...v1.2.2) (2023-10-01)
 
 
