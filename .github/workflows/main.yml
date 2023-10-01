@@ -26,7 +26,7 @@ jobs:
 
     # Authenticate with ghcr.io
     - name: Authenticate with ghcr.io
-      run: echo "${{ secrets.GH_TOKEN }}" | bunx ghcr login --username ${{ github.actor }} --password-stdin
+      run: echo "${{ secrets.GH_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
     - name: Semantic Release
       run: bunx semantic-release
