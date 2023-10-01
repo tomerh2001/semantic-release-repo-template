@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.6.1...v1.7.0) (2023-10-01)
+
+
+### Features
+
+* :building_construction: added renovate.json ([20055a3](https://github.com/tomerh2001/semantic-release-repo-template/commit/20055a3e49374941afc810453cb7df24489e6add))
+
 ## [1.6.1](https://github.com/tomerh2001/semantic-release-repo-template/compare/v1.6.0...v1.6.1) (2023-10-01)
 
 
