@@ -1,0 +1,23 @@
+name: Dynamic README Generation
+
+on:
+  push:
+    branches:
+      - main  # adjust this if your primary branch has a different name
+
+jobs:
+  generate-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Generate Dynamic README
+      uses: varunsridharan/action-dynamic-readme@main
+      with:
+        files: |
+          .templates/README.md=README.md
+        confirm_and_push: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
