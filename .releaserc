@@ -14,6 +14,9 @@
                 "dockerArgs": {
                     "GH_REPO": "{{env.GH_REPO}}"
                 }
+            }],
+            ["@codedependant/semantic-release-docker", {
+                "dockerProject": "tomerh2001"
             }]
         ]
 }
