@@ -11,6 +11,9 @@
 
 | Name                      | Description                                | Required |
 | ------------------------- | ------------------------------------------ | -------- |
-| GITLAB_TOKEN              | GitLab private token.                      | Yes      |
-| GITLAB_PROJECT_ID         | GitLab project ID.                         | Yes      |
-| GITLAB_URL                | GitLab instance URL.                       | No       |
+| GH_TOKEN                  | Github Token                               | Yes      |
+| NPM_TOKEN                 | NPM Token for publishing to NPM from CI/CD | Recommended |
+| CODECOV_TOKEN             | Codecov Token for coverage tests | Recommended |
+| SNYK_TOKEN                | Snyk Token for security tests    | Recommended |
+| DOCKER_REGISTRY_USER      | Docker registry user             | Optional    |
+| DOCKER_REGISTRY_PASSWORD  | Docker registry password         | Optional
