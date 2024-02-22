@@ -9,3 +9,8 @@
 > [!NOTE]
 > Go to [Repository Secrets](../../settings/secrets/actions) settings and add the following:
 
+| Name                      | Description                                | Required |
+| ------------------------- | ------------------------------------------ | -------- |
+| GITLAB_TOKEN              | GitLab private token.                      | Yes      |
+| GITLAB_PROJECT_ID         | GitLab project ID.                         | Yes      |
+| GITLAB_URL                | GitLab instance URL.                       | No       |
