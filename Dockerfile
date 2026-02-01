@@ -1,8 +1,12 @@
-FROM alpine:latest
+FROM node:alpine
 
 ARG GH_REPO
 ARG RELEASE_NOTES
 
-LABEL org.opencontainers.image.source $GH_REPO
+COPY dist /app/dist
+COPY package.json /app/package.json
+COPY README.md /app/README.md
+COPY CHANGELOG.md /app/CHANGELOG.md
 
-CMD ["echo", "Hello World!"]
+WORKDIR /app
+CMD ["node", "dist/index.js"]
