@@ -3,33 +3,40 @@ name: Semantic Versioning
 on:
   push:
     branches:
-      - main # or master, or whichever branch you want this to run on
+    - main
 
 jobs:
   release:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # to be able to publish a GitHub release
-      issues: write # to be able to comment on released issues
-      pull-requests: write # to be able to comment on released pull requests
-      id-token: write # to enable use of OIDC for npm provenance
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
 
     steps:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Setup Bun
-      uses: oven-sh/setup-bun@v2
-    
-    - name: Install Dependencies
-      run: bun i --dev
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v4
+      with:
+        node-version: "22.x"
 
-    # Authenticate with ghcr.io
+    - name: Install Dependencies
+      run: yarn
+
+    - name: Run Tests
+      run: yarn jest --coverage tests
+
+    - name: Run Build
+      run: yarn build
+
     - name: Authenticate with ghcr.io
       run: echo "${{ secrets.GH_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
     - name: Semantic Release
-      run: bunx semantic-release
+      run: yarn semantic-release
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
