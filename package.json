@@ -7,6 +7,9 @@
   "engines": {
     "node": ">=22"
   },
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "lodash": "^4.17.23",
     "typescript": "^5.9.3",
