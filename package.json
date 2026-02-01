@@ -1,23 +1,34 @@
 {
   "name": "semantic-release-repo-template",
   "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@codedependant/semantic-release-docker": "^5.0.0",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^13.0.0",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^11.0.0",
-    "@semantic-release/npm": "^12.0.0",
-    "@semantic-release/release-notes-generator": "^14.0.0",
-    "bun-types": "latest",
-    "xo": "^1.0.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
   "version": "1.7.0",
-  "scripts": {
-    "test": "xo"
-  }
+  "author": "Tomer Horowitz",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "lodash": "^4.17.23",
+    "typescript": "^5.9.3",
+    "xo": "^1.2.3"
+  },
+  "devDependencies": {
+    "@codedependant/semantic-release-docker": "^5.1.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.2",
+    "@semantic-release/npm": "^13.1.3",
+    "@semantic-release/release-notes-generator": "^14.1.0",
+    "@types/jest": "^30.0.0",
+    "@types/lodash": "^4.17.23",
+    "@types/node": "^25.0.9",
+    "@types/xo": "^0.39.9",
+    "eslint-plugin-th-rules": "3.4.3",
+    "jest": "^30.2.0",
+    "semantic-release": "^25.0.3",
+    "ts-jest": "^29.4.6"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@4.12.0"
 }
