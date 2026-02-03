@@ -4306,9 +4306,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-th-rules@npm:3.4.3":
-  version: 3.4.3
-  resolution: "eslint-plugin-th-rules@npm:3.4.3"
+"eslint-plugin-th-rules@npm:3.6.1":
+  version: 3.6.1
+  resolution: "eslint-plugin-th-rules@npm:3.6.1"
   dependencies:
     "@babel/eslint-parser": "npm:^7.28.6"
     "@eslint/eslintrc": "npm:^3.3.3"
@@ -4334,7 +4334,7 @@ __metadata:
     typescript: "npm:^5.9.3"
     typescript-eslint: "npm:^8.53.0"
     xo: "npm:^1.2.3"
-  checksum: 10c0/ca50405a349006f3d4886301b3e0f2050dc38e872acb1dd892639addaca513c3731cf21610039d426c82e98a4a8fd560e5c7790ab941d183da942768857a0c42
+  checksum: 10c0/e1e01978632e1504bad6e6c0c2a52575cd58b0588962bfb0a0e42615b2d3115bf4df12e3b38d0db827d36c3de02df21a317616e039a0169710e195a2afbe924d
   languageName: node
   linkType: hard
 
@@ -8981,7 +8981,7 @@ __metadata:
     "@types/lodash": "npm:^4.17.23"
     "@types/node": "npm:^25.2.0"
     "@types/xo": "npm:^0.39.9"
-    eslint-plugin-th-rules: "npm:3.4.3"
+    eslint-plugin-th-rules: "npm:3.6.1"
     jest: "npm:^30.2.0"
     lodash: "npm:^4.17.23"
     semantic-release: "npm:^25.0.3"

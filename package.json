@@ -32,7 +32,7 @@
     "@types/lodash": "^4.17.23",
     "@types/node": "^25.2.0",
     "@types/xo": "^0.39.9",
-    "eslint-plugin-th-rules": "3.4.3",
+    "eslint-plugin-th-rules": "3.6.1",
     "jest": "^30.2.0",
     "semantic-release": "^25.0.3",
     "ts-jest": "^29.4.6"
