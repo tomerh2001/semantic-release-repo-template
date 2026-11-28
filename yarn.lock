@@ -2002,9 +2002,9 @@ __metadata:
   linkType: hard
 
 "@types/lodash@npm:^4.17.23":
-  version: 4.17.23
-  resolution: "@types/lodash@npm:4.17.23"
-  checksum: 10c0/9d9cbfb684e064a2b78aab9e220d398c9c2a7d36bc51a07b184ff382fa043a99b3d00c16c7f109b4eb8614118f4869678dbae7d5c6700ed16fb9340e26cc0bf6
+  version: 4.17.28
+  resolution: "@types/lodash@npm:4.17.28"
+  checksum: 10c0/f1f4277e33628bb1cadb88dfff8086ce2ef89d4b8755a3f63319ccc34b8fed006c9b4aa0b9d5ebcde1eb687cc041f502dd62313512b8c5a5518a1a07a71c3d46
   languageName: node
   linkType: hard
 
